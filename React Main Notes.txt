@@ -1,0 +1,15 @@
+React ?
+ - javascript framework
+ - facebook
+ - fastest for rendering component (virtual dom)
+ - no external - data/template/styles
+ - unidirectional data flow (one way data binding)
+ - Virtual DOM
+ - Component based architecture
+
+
+
+
+- We think about and organize our Reactt app as components
+- Using JSX inside the render method 
+- How to manipulate state while the change

@@ -1,0 +1,61 @@
+Stores - Component + template
+
+React component  = model+view+style
+Works only on one way data binding or unidirectional data flow. Parent to child
+No 2-way data binding
+
+gecko reflow - re-rendering the whole DOM
+
+Physical DOM or actual DOM
+Virtual DOM
+
+jsx 
+Babel(transpiler) converts jsx and ES6 into jaavascript
+
+Data flows from top to bottom and events flow the other way
+
+state - top level data, child cannot have state
+data can be passed to child only through props
+
+- props are immutable in a child component
+- A parent can pass data and function to child as props
+
+- In JS a pointer pointing to a function is function expression
+- arguments in function can also be called dependency and the function may be called dependant
+- props function is never invoked or executed; It is executed by user;(by state change)   ?
+- When prop change, the function is invoked; 
+- when a dependency change, depandent has to rerun ;
+
+closures in JS
+- nested function are called closures
+- this keyword
+
+Reacts maps 'this' keyword to your component render() function
+For all generic function you need to mannually bind it to the 'this' of component
+
+
+State
+- what is props to a child is state to parent
+
+setState() is async method  
+
+
+TimersDashboard: Parent Container
+- EditableTimerList: Displays a list of timer containers
+  - EditableTimer: Displays either a timer or a timer's edit form
+    - Timer : Displays a given timer
+    - TimerForm: Displays a given timers edit form
+- ToggleableTimerForm
+  - TimerForm
+
+
+
+7 steps for React application
+
+ - Break the app into components
+ - Build a static version of the App
+ - Determine what components should be statefull 
+ - Determine in which component each piece of state should live
+ - Hard code initial states
+ - Add Inverse Data flows
+ - Add server communication
